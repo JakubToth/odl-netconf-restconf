@@ -15,3 +15,12 @@ https://jersey.java.net/nonav/documentation/1.17/user-guide.html#d4e188[Deployin
 * *removing singletons*
 ** we dont have to use web.xml and annotations
 ** this is possible only on jersey v2
+
+The best way of removing web xml and singletons is migrating to jersey v2.
+
+==== Latest draft of restconf
+
+* add latest restconf yangs to MD-SAL models for restconf
+** ietf-restconf
+** ietf-restconf-monitoring
+** ietf-yang-patch
