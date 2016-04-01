@@ -10,6 +10,7 @@ https://jersey.java.net/nonav/documentation/1.17/user-guide.html#d4e188[Deployin
 **** need to migrate to jersey v2
 *** not possible to remove singletons
 **** jersey initiated applications (java classes extended by Application) while jersey's bundle starts
+***** we can use *load on startup* in web.xml for specific servlet but it does not solve the problem
 ***** jersey start in aaa-shiro
 
 * *removing singletons*
