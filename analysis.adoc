@@ -5,7 +5,7 @@
 https://jersey.java.net/nonav/documentation/1.17/user-guide.html#d4e188[Deploying a RESTful Web Service with Jersey 1.17]
 
 * *removing web.xml*
-** using annotation ApplicationPath from Servler 3.0
+** using annotation ApplicationPath from Servlet 3.0
 *** this is not possible with jersey 1.17 and jetty
 **** need to migrate to jersey v2
 *** not possible to remove singletons
@@ -14,10 +14,10 @@ https://jersey.java.net/nonav/documentation/1.17/user-guide.html#d4e188[Deployin
 ***** jersey start in aaa-shiro
 
 * *removing singletons*
-** we dont have to use web.xml and annotations
+** we don't have to use web.xml and annotations
 ** this is possible only on jersey v2
 
-The best way of removing web xml and singletons is migrating to jersey v2.
+[red]#The best way of removing web xml and singletons is migrating to jersey 2.x#
 
 ==== Latest draft of restconf
 
